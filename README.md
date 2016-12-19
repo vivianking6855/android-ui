@@ -6,4 +6,4 @@
 
 ### 2. ui-basic: ui 基础Demo
 
-### 3. ui-anvanced: ui 进阶Demo
+### 3. ui-advanced: ui 进阶Demo
