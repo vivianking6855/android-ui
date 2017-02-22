@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_launcher"
+        android:title="OptionMenu Item 1">
+        <menu>
+            <item
+                android:icon="@drawable/ic_launcher"
+                android:title="SubMenu Item 2" />
+            <item
+                android:icon="@drawable/ic_launcher"
+                android:title="SubMenu Item 3" />
+        </menu>
+    </item>
+    <item
+        android:icon="@drawable/ic_launcher"
+        android:title="OptionMenu Item 2" />
+    <item
+        android:icon="@drawable/ic_launcher"
+        android:title="OptionMenu Item 3" />
+
+</menu>

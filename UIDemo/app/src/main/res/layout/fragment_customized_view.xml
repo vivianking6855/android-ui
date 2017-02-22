@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomizedViewFragment" android:background="@android:color/darker_gray">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="Custormized View Demo"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/mode_small_btn_height"
+            android:layout_weight="1"
+            android:background="@android:color/transparent">
+
+            <com.demo.ui.customized.ModeButtonView
+                android:id="@+id/mode_movie"
+                android:layout_width="@dimen/mode_small_btn_width"
+                android:layout_height="@dimen/mode_small_btn_height"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:text="@string/audio_movie"
+                android:id="@+id/movie_txt"
+                style="@style/AutoFitTextStyle"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/mode_small_btn_height"
+            android:layout_weight="1"
+            android:background="@android:color/transparent">
+
+            <com.demo.ui.customized.ModeButtonView
+                android:id="@+id/mode_music"
+                android:layout_width="@dimen/mode_small_btn_width"
+                android:layout_height="@dimen/mode_small_btn_height"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:text="@string/audio_music"
+                android:id="@+id/music_txt"
+                style="@style/AutoFitTextStyle"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/mode_small_btn_height"
+            android:layout_weight="1"
+            android:background="@android:color/transparent">
+
+            <com.demo.ui.customized.ModeButtonView
+                android:id="@+id/mode_gaming"
+                android:layout_width="@dimen/mode_small_btn_width"
+                android:layout_height="@dimen/mode_small_btn_height"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/game_txt"
+                android:text="@string/audio_gaming"
+                style="@style/AutoFitTextStyle"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/mode_small_btn_height"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@android:color/transparent">
+
+            <com.demo.ui.customized.ModeButtonView
+                android:id="@+id/mode_vocal"
+                android:layout_width="@dimen/mode_small_btn_width"
+                android:layout_height="@dimen/mode_small_btn_height"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/vocal_txt"
+                android:text="@string/audio_vocal"
+                style="@style/AutoFitTextStyle"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

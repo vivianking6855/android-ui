@@ -1,6 +1,6 @@
-# Android demo code说明
+# Android ui demo 说明
 
-## ui-basic: ui 基础Demo
+## UIDemo: ui 基础Demo
 
 - 自定义View
 - Menu
@@ -8,10 +8,11 @@
 - Fragment
 - BottomNavigationView
 
-## ui-advanced: ui 进阶Demo
+## AdvancedDemo: ui 进阶Demo
 
 - ConstraintLayout
+- CoordinatorLayout
+- AppBarLayout,TabLayout,Toolbar
+- CollapsingToolbarLayout,NestedScrollView
 - RecyclerView
 - DiffUtil
-- CoordinatorLayout
-- NesedScrolling

@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- customize surfaceview -->
+    <dimen name="visualizer_blockWidth">1.5dp</dimen>
+
+    <dimen name="mode_small_btn_inner_ring_stroke">4dp</dimen>
+    <dimen name="mode_small_btn_width">86dp</dimen>
+    <dimen name="mode_small_btn_height">118dp</dimen>
+    <dimen name="mode_small_btn_paddingTop">10dp</dimen>
+    <dimen name="mode_small_btn_text">15dp</dimen>
+    <dimen name="mode_small_btn_circleRadius">31dp</dimen>
+
+    <dimen name="mode_big_btn_circleRadius">46.5dp</dimen>
+    <dimen name="mode_big_btn_paddingTop">8dp</dimen>
+    <dimen name="mode_btn_paddingCircleText">8dp</dimen>
+</resources>

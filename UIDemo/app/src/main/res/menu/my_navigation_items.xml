@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/customize"
+        android:icon="@drawable/ic_launcher"
+        android:title="Customize" />
+    <item
+        android:id="@+id/customize_surface"
+        android:icon="@drawable/ic_launcher"
+        android:title="SurfaceView" />
+    <item
+        android:id="@+id/menudemo"
+        android:icon="@drawable/ic_launcher"
+        android:title="Menu" />
+    <item
+        android:id="@+id/notify"
+        android:icon="@drawable/ic_launcher"
+        android:title="Notify" />
+</menu>

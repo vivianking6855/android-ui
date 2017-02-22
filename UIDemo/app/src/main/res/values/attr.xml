@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="type">
+	    <attr name="buttonType">
+	        <enum name="big" value="2"/>
+	        <enum name="small" value="1"/>
+	    </attr>
+    </declare-styleable>
+</resources>

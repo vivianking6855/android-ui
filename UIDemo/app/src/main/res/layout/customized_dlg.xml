@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/login_bg"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    android:rowCount="2">
+
+    <TextView
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:text="@string/notify_welocme"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/cancelBtn"
+        android:layout_columnWeight="1"
+        android:background="@android:color/darker_gray"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/notify_cancel"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/okBtn"
+        android:layout_columnWeight="1"
+        android:background="@android:color/holo_orange_light"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/notify_ok"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+</GridLayout>

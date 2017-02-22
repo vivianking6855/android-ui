@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="app_background">#15191f</color>
+    <color name="mode_selected">#7e8Aff</color>
+    <color name="mode_selected_bg">#654CFF</color>
+    <color name="mode_not_selected">#ffffff</color>
+    <color name="mode_not_selected_bg">#232935</color>
+    <color name="disable">#373B44</color>
+</resources>
