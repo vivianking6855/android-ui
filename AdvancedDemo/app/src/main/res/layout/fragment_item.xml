@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:scrollbarFadeDuration="2000"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp" />
+    <!-- scrollbarStyle为outsideOverlay或insideOverlay。
+         android:scrollbarFadeDuration="X"，其中X表示滚动条从出现到消失的时间，单位是毫秒
+    -->
+
+</LinearLayout>

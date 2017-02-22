@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fj.myapplication.MainActivity">
+    <item
+        android:id="@+id/menu_item_1"
+        android:orderInCategory="100"
+        android:title="@string/menu_1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_item_2"
+        android:orderInCategory="100"
+        android:title="@string/menu_2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_item_3"
+        android:orderInCategory="100"
+        android:title="@string/menu_3"
+        app:showAsAction="never" />
+</menu>

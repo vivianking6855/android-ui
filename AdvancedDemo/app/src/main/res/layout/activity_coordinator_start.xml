@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="@android:color/holo_red_light"
+    android:text="@string/child"
+    app:layout_behavior="com.ui.advanced.advanceddemo.coordinatorlayout.start.UserBehavior" />
+<!--app:layout_behavior=" your Behavior class name,include package name"-->
+<!--CoordinatorLayout will reflect your Behavior-->
+
+<com.ui.advanced.advanceddemo.coordinatorlayout.start.DependencyView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="@android:color/darker_gray"
+    android:text="@string/dependency" />
+
+</android.support.design.widget.CoordinatorLayout>

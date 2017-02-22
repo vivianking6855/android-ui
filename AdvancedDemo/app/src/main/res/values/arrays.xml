@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- contents array must follow format {id, name}-->
+    <string-array name="contents">
+        <item>0,ConstraintLayout: Start</item>
+        <item>1,ConstraintLayout: AutoConnect</item>
+        <item>2,ConstraintLayout: Inference</item>
+        <item>3,RecyclerView: Grid</item>
+        <item>4,RecyclerView: Stagger H</item>
+        <item>5,RecyclerView: Stagger V</item>
+        <item>6,CoordinatorLayout Start</item>
+        <item>7,CoordinatorLayout Follow</item>
+        <item>8,CoordinatorLayout Scoll</item>
+        <item>9,AppBarLayout</item>
+        <item>10,CollapsingActivity</item>
+    </string-array>
+
+    <string-array name="contents_grid">
+        <item>grid 1</item>
+        <item>grid 2</item>
+        <item>grid 3</item>
+        <item>grid 4</item>
+        <item>grid 5</item>
+        <item>grid 6</item>
+        <item>grid 7</item>
+        <item>grid 8</item>
+        <item>grid 9</item>
+        <item>grid 10</item>
+    </string-array>
+
+    <string-array name="contents_stagger_h">
+        <item>stagger 1</item>
+        <item>stagger 2</item>
+        <item>stagger 3</item>
+        <item>stagger 4</item>
+        <item>stagger 5</item>
+        <item>stagger 6</item>
+        <item>stagger 7</item>
+        <item>stagger 8</item>
+        <item>stagger 9</item>
+        <item>stagger 10</item>
+    </string-array>
+
+    <string-array name="contents_stagger_v">
+        <item>stagger 1</item>
+        <item>stagger 2</item>
+        <item>stagger 3</item>
+        <item>stagger 4</item>
+        <item>stagger 5</item>
+        <item>stagger 6</item>
+        <item>stagger 7</item>
+        <item>stagger 8</item>
+        <item>stagger 9</item>
+        <item>stagger 10</item>
+    </string-array>
+
+</resources>
