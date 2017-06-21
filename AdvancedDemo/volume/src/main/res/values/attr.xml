@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- circle volume -->
+    <declare-styleable name="CircleVolume">
+        <attr name="unitCount" format="integer" />
+        <!-- split is degree, must < 360/unit_count) -->
+        <attr name="unitSplit" format="integer" />
+        <attr name="normalColor" format="color" />
+        <attr name="focusColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="centerIcon" format="reference" />
+        <attr name="centerIconMargin" format="dimension" />
+    </declare-styleable>
+</resources>

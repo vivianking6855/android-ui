@@ -1,0 +1,6 @@
+<resources>
+    <!-- circle volume -->
+    <dimen name="strokeWidth">15dp</dimen>
+    <dimen name="circleSize">200dp</dimen>
+    <dimen name="iconMargin">20dp</dimen>
+</resources>

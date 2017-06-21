@@ -1,1 +1,5 @@
-include ':app'
+include ':app', ':canvas', ':progress', ':volume'
+include ':AndroidLib'
+project(':AndroidLib').projectDir = new File('F:/Classify/LocalGit/AndroidLib/AndroidLib/')
+include ':AndroidLib:applib'
+include ':AndroidLib:utilslib'

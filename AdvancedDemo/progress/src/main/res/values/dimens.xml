@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- circle progress width -->
+    <dimen name="circleWidth">10dp</dimen>
+    <dimen name="circle_size">200dp</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- circle progress -->
+    <color name="firstColor">#00f0ff</color>
+    <color name="secondColor">#a717ff</color>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- circle volume -->
+    <integer name="unit_count">10</integer>
+    <integer name="unit_split">20</integer>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- circle volume -->
+    <color name="normal">#00f0ff</color>
+    <color name="focus">#a717ff</color>
+</resources>

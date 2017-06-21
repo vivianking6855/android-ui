@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:open="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.open.volume.MainActivity">
+
+    <com.open.volume.CircleVolume
+        android:layout_width="@dimen/circleSize"
+        android:layout_height="@dimen/circleSize"
+        android:layout_marginTop="20dp"
+        open:centerIcon="@drawable/center"
+        open:centerIconMargin="@dimen/iconMargin"
+        open:focusColor="@color/focus"
+        open:normalColor="@color/normal"
+        open:strokeWidth="@dimen/strokeWidth"
+        open:unitCount="@integer/unit_count"
+        open:unitSplit="@integer/unit_split" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/start" />
+
+</LinearLayout>

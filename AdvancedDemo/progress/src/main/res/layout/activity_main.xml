@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:open="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.open.progress.MainActivity">
+
+    <com.open.progress.CircleProgress
+        android:id="@+id/circle_progress"
+        android:layout_width="@dimen/circle_size"
+        android:layout_height="@dimen/circle_size"
+        open:circleWidth="@dimen/circleWidth"
+        open:firstColor="@color/firstColor"
+        open:secondColor="@color/secondColor" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/start" />
+
+</LinearLayout>
