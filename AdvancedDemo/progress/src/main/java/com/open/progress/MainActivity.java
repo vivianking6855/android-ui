@@ -33,12 +33,6 @@ public class MainActivity extends BaseActivity {
     };
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        setContentView(R.layout.activity_main);
-        super.onCreate(savedInstanceState);
-    }
-
-    @Override
     protected void initData() {
         // circle progress speed
         int sp = getResources().getInteger(R.integer.speed);
@@ -47,6 +41,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initView(Bundle savedInstanceState) {
+        setContentView(R.layout.activity_main);
         circleProgress = (CircleProgress) findViewById(R.id.circle_progress);
         findViewById(R.id.start).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,7 +80,7 @@ public class MainActivity extends BaseActivity {
             Message msg = mHandler.obtainMessage(MSG_CIRCLE, pos);
             mHandler.sendMessage(msg);
             // sleep speed time (1~100)
-            SystemClock.sleep(100 / speed);
+            SystemClock.sleep(500 / speed);
         }
     }
 

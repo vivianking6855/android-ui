@@ -36,7 +36,7 @@ public class CircleVolume extends BasicView {
     private Bitmap centerIcon;
     private int centerIconMagin;
 
-    private int mVolume = 3;
+    private int mVolume;
 
     public CircleVolume(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
@@ -67,7 +67,7 @@ public class CircleVolume extends BasicView {
     }
 
     @Override
-    protected void initView() {
+    protected void initData() {
         arcPaint = new Paint();
         arcPaint.setAntiAlias(true); // 消除锯齿
         arcPaint.setStrokeWidth(strokeWidth);
@@ -127,7 +127,7 @@ public class CircleVolume extends BasicView {
             }
 
             mVolume = value;
-            if (mVolume >= unitCount) {
+            if (mVolume > unitCount) {
                 mVolume = 0;
             }
 

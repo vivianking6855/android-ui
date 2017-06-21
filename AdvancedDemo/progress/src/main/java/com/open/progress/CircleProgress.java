@@ -113,7 +113,7 @@ public class CircleProgress extends View {
             }
 
             progress = value;
-            if (progress >= 360) {
+            if (progress > 360) {
                 progress = 0;
             }
 
